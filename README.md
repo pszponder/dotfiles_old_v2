@@ -6,7 +6,7 @@ My dotfile configuration
 
 See [Prerequisites](./README.md#prerequisites) section before using.
 
-Refer to the [Chezmoi Quick Start Guide](https://www.chezmoi.io/quick-start) for more information on using Chezmoi.
+Refer to the [Resources / References](./README.md#resources--references) Section to learn about how to use Chezmoi.
 
 ```bash
 # QUICK INSTALL
@@ -36,7 +36,7 @@ chezmoi add $FILE # Replace $FILE with absolute path to dotfile/directory you wa
 # cd into the chezmoi repo from anywhere
 chezmoi cd
 
-# Edit a file managed by chezmoi
+# Edit a file managed by chezmoi (alternatively, "chezmoi cd" and edit files in the chezmoi repo)
 chezmoi edit                # Open chezmoi source directory
 chezmoi edit $FILE          # Replace $FILE with abs path to dotfile path you wish to edit
 chezmoi edit --apply $FILE  # Apply changes when you quit the editor
@@ -45,13 +45,20 @@ chezmoi edit --watch $FILE  # Apply changes whenever you save the file
 # See what changes chezmoi would make (without applying changes)
 chezmoi diff
 
-# Apply changes to dotfiles tracked by chezmoi
-chezmoi apply -v # Actually apply changes (note the lack of -n option)
+# Apply changes to dotfiles tracked by chezmoi to your computer
+chezmoi apply -vn # (alternative to chezmoi diff)
+chezmoi apply -v  # Actually apply changes
 
-# Merge changes from your home directory into chezmoi
+# Merge changes from your home directory into chezmoi repository
 chezmoi merge $FILE # Replace $FILE with dotfile abs path you with to merge into chezmoi
 
-# Exit the shell in the chezmoi source directory to return to where you were
+# Push changes into remote repo
+chezmoi cd # cd into local chezmoi repo
+git add .
+git commit -m "your commit message"
+git push
+
+# Exit the shell in the chezmoi source directory to return to where you were (if you use "chezmoi cd")
 exit
 ```
 
@@ -172,6 +179,7 @@ Managing Dotfiles w/ chezmoi
 - [chezmoi - Quick Start](https://www.chezmoi.io/quick-start/)
 - [chezmoi - How do I edit my dotfiles with chezmoi?](https://www.chezmoi.io/user-guide/frequently-asked-questions/usage/#how-do-i-edit-my-dotfiles-with-chezmoi)
 - [chezmoi - Daily Operations](https://www.chezmoi.io/user-guide/daily-operations/)
+- [Jerry Ng - How to Manage Dotfiles w/ Chezmoi](https://jerrynsh.com/how-to-manage-dotfiles-with-chezmoi/)
 - [Chris Titus - Easily Moving Linux Installs](https://www.youtube.com/watch?v=x6063EuxfEA)
 - [Chris Titus Blog - Easily Moving Linux Installs](https://christitus.com/chezmoi/)
 - [Jacob Bolda - chezmoi dotfile management](https://www.jacobbolda.com/chezmoi-dotfile-management/)
