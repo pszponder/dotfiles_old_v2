@@ -8,6 +8,8 @@ See [Prerequisites](./README.md#prerequisites) section before using.
 
 Refer to the [Resources / References](./README.md#resources--references) Section to learn about how to use Chezmoi.
 
+**NOTE:** You shouldn't create dotfiles directly in the Chezmoi repo, instead, use `chezmoi add` to add the dotfiles to the chezmoi repo.
+
 ```bash
 # QUICK INSTALL
 chezmoi init --apply git@github.com:pszponder/dotfiles.git
