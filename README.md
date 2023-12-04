@@ -77,20 +77,6 @@ If you are not using `ZSH` as your default shell, run the following script
 ./scripts/setup_zsh.sh
 ```
 
-### Stow
-
-Dotfiles are managed by [`GNU Stow`](https://www.gnu.org/software/stow/)
-
-**NOTE:** If you followed the instructions for setting up Homebrew, you should already have `stow` installed
-
-```bash
-# Apt
-sudo apt install stow
-
-# Brew
-brew install stow
-```
-
 ### Fonts
 
 Installing Fonts:
