@@ -4,6 +4,11 @@
 # SHELL ALIASES
 # =============
 
+# +----------------+
+# | SYSTEM RELATED |
+# +----------------+
+alias sudo='sudo ' # Allow aliases to be sudo'ed
+
 # +------------+
 # | NAVIGATION |
 # +------------+
