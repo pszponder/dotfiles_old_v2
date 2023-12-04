@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# https://www.joshmedeski.com/posts/manage-macos-packages-with-homebrew/
+# This script keeps brew and all of its packages up to date.
+# It also runs brew doctor to make sure everything is working properly.
+# Simply run b in your terminal to run this script.
+
 gum style \
   --foreground 12 --border-foreground 12 --border double \
   --align center --width 50 --margin "1 0" --padding "1 2" \
