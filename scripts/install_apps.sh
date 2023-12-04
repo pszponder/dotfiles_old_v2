@@ -106,3 +106,11 @@ sudo groupadd docker
 
 # Add your user to the docker group (log out and back in if necessary)
 sudo usermod -aG docker $USER
+
+# =======================================================
+# Install Neovim
+# https://github.com/neovim/neovim/wiki/Installing-Neovim
+# =======================================================
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
