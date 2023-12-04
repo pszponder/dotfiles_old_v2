@@ -33,7 +33,8 @@ chezmoi add $FILE # Replace $FILE with absolute path to dotfile/directory you wa
 # cd into the chezmoi repo from anywhere
 chezmoi cd
 
-# Edit a file managed by chezmoi (alternatively, "chezmoi cd" and edit files in the chezmoi repo)
+# Edit a file managed by chezmoi
+# (alternatively, "chezmoi cd" and edit files in the chezmoi repo w/ editor of choice)
 chezmoi edit                # Open chezmoi source directory
 chezmoi edit $FILE          # Replace $FILE with abs path to dotfile path you wish to edit
 chezmoi edit --apply $FILE  # Apply changes when you quit the editor
