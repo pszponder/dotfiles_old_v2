@@ -26,6 +26,7 @@ brew install \
 	grex \
 	zoxide \
 	lazygit \
+	lazydocker \
 	git-delta \
 	broot \
 	tokei \
@@ -38,6 +39,7 @@ brew install \
 	rtx \
 	stow \
 	chezmoi \
+	gum \
 
 # Install Brew GUI Packages (if on macOS)
 case $(uname -ms) in
@@ -93,3 +95,6 @@ fi
 # [lf (cli file manager)](https://github.com/gokcehan/lf)
 # [ranger (cli file manager)](https://github.com/ranger/ranger)
 # [yazi - terminal file manager](https://github.com/sxyazi/yazi)
+# [starship (shell prompt)](https://starship.rs/)
+# [gum - glamorous shell scripts w/o any Go code!](https://github.com/charmbracelet/gum)
+# [chezmoi - dotfile manager](https://www.chezmoi.io/)
