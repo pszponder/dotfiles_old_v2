@@ -21,10 +21,7 @@ chezmoi init git@github.com:pszponder/dotfiles.git
 ```
 
 ```bash
-# Pull latest changes from your remote repo and apply them
-chezmoi update # Runs git pull --autostash --rebase in chezmoi source dir and then chezmoi apply
-
-# Pull changes from repo
+# Pull changes from remote repo
 chezmoi update                                           # Pulls and applies changes from remote
 
 chezmoi git pull -- --autostash --rebase && chezmoi diff # Pull & view changes, don't apply
