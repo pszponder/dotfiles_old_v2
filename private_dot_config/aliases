@@ -107,12 +107,13 @@ alias vim="nvim"
 # | chezmoi - https://www.chezmoi.io/ |
 # +-----------------------------------+
 
-alias dots="chezmoi cd"
-alias dotsi="chezmoi init"
-alias dotsd="chezmoi diff"
-alias dotsa="chezmoi add"
-alias dotsapp="chezmoi apply -v"
-alias dotse="chezmoi edit"
+ alias dots="chezmoi"
+# alias dots="chezmoi cd"
+# alias dotsi="chezmoi init"
+# alias dotsd="chezmoi diff"
+# alias dotsadd="chezmoi add"
+# alias dotsapp="chezmoi apply -v"
+# alias dotse="chezmoi edit"
 
 # +-----+
 # | Git |
