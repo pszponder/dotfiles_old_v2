@@ -12,6 +12,7 @@ fi
 brew install \
 	gcc \
 	git \
+	vim \
 	neovim \
 	fzf \
 	ripgrep \
