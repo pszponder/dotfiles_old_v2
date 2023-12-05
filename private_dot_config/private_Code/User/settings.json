@@ -254,11 +254,11 @@
       "commands": ["editor.action.peekTypeDefinition"]
     },
 
-    // // Open File Explorer
-    // {
-    //   "before": ["<leader>", "e"],
-    //   "commands": ["workbench.view.explorer"]
-    // },
+    // Open File Explorer
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
   ],
 
   "vim.visualModeKeyBindings": [

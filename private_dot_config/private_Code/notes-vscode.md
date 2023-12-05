@@ -40,6 +40,9 @@ h,j,k,l        -- Navigation in Hover Menu (gh)
 TAB            -- Toggle focus between right and left peek widget
 
 LEADER + d     -- Add Selection to Next Find Match (CTRL+D alternative)
+
+ALT + j        -- Swap line down
+ALT + k        -- Swap line up
 ```
 
 ```text
@@ -71,15 +74,16 @@ CTRL + SHIFT + u,d -- Scroll to TOP / BOTTOM of Terminal
 ### File Explorer
 
 ```text
-CTRL + e  -- Toggle File Explorer
-a         -- Create a New File
-f         -- Create a New Directory
-r         -- Rename currently selected file / directory
-x         -- Cut currently selected file / directory
-y         -- Copy currently selected file / directory
-p         -- Paste currently selected file / directory
-d         -- Delete currently selected file / directory
-o         -- Open file / directory (& stay in explorer menu)
+CTRL + e    -- Toggle File Explorer
+LEADER + e  -- Toggle File Explorer
+a           -- Create a New File
+f           -- Create a New Directory
+r           -- Rename currently selected file / directory
+x           -- Cut currently selected file / directory
+y           -- Copy currently selected file / directory
+p           -- Paste currently selected file / directory
+d           -- Delete currently selected file / directory
+o           -- Open file / directory (& stay in explorer menu)
 
 NAVIGATION
 j         -- Navigate UP

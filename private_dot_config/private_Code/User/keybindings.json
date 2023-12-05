@@ -1,5 +1,20 @@
 // Place your key bindings in this file to override the defaults
 [
+  // ====================
+  // ==== NAVIGATION ====
+  // ====================
+  // Move line up
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // Move line down
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
   // ========================
   // ======= EDITOR =========
   // ========================
@@ -94,19 +109,19 @@
   // ====== FILE TREE ==========
   // ===========================
   {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
-  },
-  {
     "command": "workbench.files.action.focusFilesExplorer",
     "key": "ctrl+e",
     "when": "editorTextFocus"
   },
-  // {
-  //   "key": "space e",
-  //   "command": "workbench.action.toggleSidebarVisibility",
-  //   "when": "filesExplorerFocus && !inputFocus"
-  // },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
   {
     "key": "a",
     "command": "explorer.newFile",
