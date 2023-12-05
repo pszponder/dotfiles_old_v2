@@ -110,6 +110,8 @@
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "#a9dc7660",
   "vim.highlightedyank.duration": 250,
+  "vim.surround": true, // Enable surround.vim -- https://github.com/VSCodeVim/Vim#vim-surround
+  "vim.commentary": true, // Enable commentary.vim -- https://github.com/VSCodeVim/Vim#vim-commentary
 
   "vim.insertModeKeyBindings": [
     // "jj" in Insert Mode => Go to Normal Mode

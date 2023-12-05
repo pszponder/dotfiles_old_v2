@@ -113,6 +113,36 @@ SHIFT + k     -- Move selected lines UP   (in VISUAL mode)
 >             -- Indent lines selected in VISUAL Mode
 ```
 
+### Vim Surround
+
+[tpope - vim-surround](https://github.com/tpope/vim-surround)
+
+```text
+ys <motion> <desired>   -- Add <desired> surround around text defined by <motion>
+ds <existing>           -- Delete <existing> surround
+cs <existing> <desired> -- Change <existing> surround to <desired>
+SHIFT + s <desired>     -- Surround when in visual modes (surrounds full selection)
+```
+
+### Vim Commentary
+
+[tpope - vim-commentary](https://github.com/tpope/vim-commentary)
+
+```text
+gcc           -- Toggles comment for current line
+gc <movement> -- Toggles line comment from current line to movement
+gC            -- Toggles block comment
+```
+
+Usage Examples:
+- `gc2j` comments current line + next 2 lines down
+- `gcl` or `gch` comments current line
+- `gCi)` comments out everything within parenthesis
+
 ## Resources / References
 - [Melkey - Mastering VIM Motions in VSCode (Mouseless Development)](https://www.youtube.com/watch?v=GST8we5uABo)
 - [10 VSCode Vim Tricks to Boost Your Productivity](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n)
+- [VSCodeVim - vim-surround](https://github.com/VSCodeVim/Vim#vim-surround)
+- [tpope - vim-surround](https://github.com/tpope/vim-surround)
+- [VSCodeVim - vim-commentary](https://github.com/VSCodeVim/Vim#vim-commentary)
+- [tpope - vim-surround](https://github.com/tpope/vim-surround)
