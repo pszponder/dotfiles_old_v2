@@ -102,6 +102,12 @@ alias clip='xclip -selection clipboard' # ex. pwd | clip
 alias vi="nvim"
 alias vim="nvim"
 
+# +-----------------------------------+
+# | chezmoi - https://www.chezmoi.io/ |
+# +-----------------------------------+
+
+alias dots="chezmoi"
+
 # +-----+
 # | Git |
 # +-----+
