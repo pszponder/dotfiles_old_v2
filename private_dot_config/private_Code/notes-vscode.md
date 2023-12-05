@@ -103,13 +103,14 @@ CTRL + e         -- Toggle back to Editor (when Global File Search is active)
 ### MISC
 
 ```text
-LEADER + ca -- Code Actions / Quick Fix
-LEADER + p  -- Format Document
-CTRL + /    -- Toggle comment
-SHIFT + j   -- Move selected lines DOWN (in VISUAL mode)
-SHIFT + k   -- Move selected lines UP   (in VISUAL mode)
-<           -- Outdent lines selected in VISUAL Mode
->           -- Indent lines selected in VISUAL Mode
+LEADER + ca   -- Code Actions / Quick Fix
+LEADER + p    -- Format Document
+CTRL + /      -- Toggle comment
+LEADER + c    -- Toggle comment (in VISUAL mode)
+SHIFT + j     -- Move selected lines DOWN (in VISUAL mode)
+SHIFT + k     -- Move selected lines UP   (in VISUAL mode)
+<             -- Outdent lines selected in VISUAL Mode
+>             -- Indent lines selected in VISUAL Mode
 ```
 
 ## Resources / References
