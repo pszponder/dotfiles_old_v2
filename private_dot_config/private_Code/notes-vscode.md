@@ -125,7 +125,7 @@ SHIFT + k     -- Move selected lines UP   (in VISUAL mode)
 ys <motion> <desired>   -- Add <desired> surround around text defined by <motion>
 ds <existing>           -- Delete <existing> surround
 cs <existing> <desired> -- Change <existing> surround to <desired>
-SHIFT + s <desired>     -- Surround when in visual modes (surrounds full selection)
+SHIFT + s <desired>     -- Surround when in VISUAL mode (surrounds full selection)
 ```
 
 ### Vim Commentary
