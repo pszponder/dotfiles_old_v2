@@ -23,7 +23,10 @@ LEADER + x   -- Save & Quit active File
 
 ```text
 LEADER + \     -- Create a vertical split
+CTRL + w v     -- Create a vertical split
+
 LEADER + -     -- Create a horizontal split
+CTRL + w s     -- Create a horizontal split
 
 CTRL + h,j,k,l -- Navigate between Windows / Split
 SHIFT + h,l    -- Navigate left/right tabs of current split
@@ -115,7 +118,8 @@ SHIFT + k     -- Move selected lines UP   (in VISUAL mode)
 
 ### Vim Surround
 
-[tpope - vim-surround](https://github.com/tpope/vim-surround)
+- [tpope - vim-surround](https://github.com/tpope/vim-surround)
+- [Surrounding Things w/ Vim Surround](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/surrounding-things-with-vim-surround/)
 
 ```text
 ys <motion> <desired>   -- Add <desired> surround around text defined by <motion>
@@ -140,9 +144,12 @@ Usage Examples:
 - `gCi)` comments out everything within parenthesis
 
 ## Resources / References
+- [Boost Your Coding Fu w/ VSCode and Vim](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet)
 - [Melkey - Mastering VIM Motions in VSCode (Mouseless Development)](https://www.youtube.com/watch?v=GST8we5uABo)
 - [10 VSCode Vim Tricks to Boost Your Productivity](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n)
 - [VSCodeVim - vim-surround](https://github.com/VSCodeVim/Vim#vim-surround)
 - [tpope - vim-surround](https://github.com/tpope/vim-surround)
+- [Surrounding Things w/ Vim Surround](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/surrounding-things-with-vim-surround/)
 - [VSCodeVim - vim-commentary](https://github.com/VSCodeVim/Vim#vim-commentary)
 - [tpope - vim-surround](https://github.com/tpope/vim-surround)
+- [Splits, Tabs, and Switching Between Them](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/splitting-windows/)
